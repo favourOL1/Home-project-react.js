@@ -61,7 +61,8 @@ nav{
   position: fixed;
   display: flex;
   flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.13);
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  background-color: rgb(28, 28, 28);
   align-items: center;
   justify-content: space-between;
   color: white;
@@ -140,6 +141,7 @@ em{
   top: 150px;
   color: white;
   gap: 20px;
+  width: 100%;
   
 }
 
@@ -158,27 +160,19 @@ em{
   font-size:80px;
 }
 
-#btn_link {
+.register #btn_link{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 100px;
 }
 
-.register #btn_link button{
-  height: 70px;
-  background: transparent;
-  border-radius: 50px;
-  color: white;
-  justify-content: center;
-  /* justify-content: space-between; */
-  border: 1px solid red;
-  outline: none;
-  width: 150px;
-
+.register Button{
+  width: 200%;
+  height: 80%;
 }
 
-.register #btn_link button:hover {
-  background-color:red;
+.register Button:hover {
+  background-color: red;
 }
 
 .boxs{
@@ -207,7 +201,7 @@ em{
 
 .box_link:hover{
   background-color: white;
-  margin-top: -40px;
+  margin-top: -30px;
   transition-duration: 0.4s;
 }
 
@@ -222,10 +216,12 @@ em{
 }
 
 .section1{
+  position:relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 50%;
+  padding-bottom: 200px;
 }
 
 .img-about{
@@ -247,13 +243,102 @@ em{
   color: white;
 }
 
+.typesofcars p {
+  display: flex;
+  color:whitesmoke;
+  margin-top: 20px;
+}
+
+.typesofcars Button:hover {
+  background-color: red ;
+}
+
+
 img{
   display: flex;
   flex-wrap: wrap;
   border-radius: 20px;
+  border-top-right-radius: inset 30px;
 }
 
 .img-about{
   display: flex;
   width: 50%;
+}
+
+.btn {
+  display: flex;
+  width: 25%;
+  color: white;
+  background-color: transparent;
+  height: 50px;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Section2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  justify-content: center;
+}
+
+
+.Section2 .stn2 {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.Section2 h1 h6{
+  color: white;
+}
+
+.Section2 p{
+  color: red;
+}
+
+.Section2 h1{
+  color: white;
+}
+
+.Ourservice{
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 40px;
+}
+
+.Ourservice img{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  justify-content: space-between;
+}
+
+.Footer #footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  border: 1px solid red;
+  width: 20%;
 }

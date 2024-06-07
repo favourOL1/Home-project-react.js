@@ -18,6 +18,7 @@ function Box (){
     }
 
     return(
+        
         <div className="boxs container">
             <div className="box_link" >
                 <h1>{link1.title} </h1>
@@ -36,16 +37,3 @@ function Box (){
 }
 
 export default Box
-
-  /* 1
-
-
-
-2
-
-
-
-3
-
-. */
-
