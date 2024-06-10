@@ -1,21 +1,23 @@
 import React from "react"
-import images from "../assets/Airport.jpg"
+import image1 from "../assets/Airport.jpg"
+import image2 from "../assets/vipTransfer.jpg"
+import image3 from "../assets/private.jpg"
 
 function OurServices (props){
 
     return(
         <div className="Ourservice container ">
             <div>
-                <img src={images} alt="" />
-                <p>{props.service}</p>
+                <img src={image1} alt="" />
+                <p>{props.service1}</p>
             </div>
             <div>
-                <img src={images} alt="" />
-                <p>{props.service}</p>
+                <img src={image2} alt="" />
+                <p>{props.service2}</p>
             </div>
             <div>
-                <img src={images} alt="" />
-                <p>{props.service}</p>
+                <img src={image3} alt="" />
+                <p>{props.service3}</p>
             </div>
             
         </div>

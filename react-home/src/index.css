@@ -19,14 +19,13 @@ a{
   position: absolute;
   top: 0px;
   left: 0;
-  background-color: blue;
 }
 
 .dropdown-content > div {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
-  background-color: red;
+  background-color:gray;
   gap: 20px;
   padding: 20px 0px 20px 0px;
   font-size: medium;
@@ -280,7 +279,7 @@ img{
   margin-top: 50px;
 }
 
-.Section2{
+.Section2 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -298,13 +297,13 @@ img{
   text-align: center;
 }
 
-.Section2 h1 h6{
-  color: white;
-}
-
-.Section2 p{
+.Section2 h6{
   color: red;
 }
+
+/* .Section2 p{
+  color: red;
+} */
 
 .Section2 h1{
   color: white;
@@ -315,13 +314,37 @@ img{
   flex-direction: row;
   padding-top: 100px;
   padding-bottom: 100px;
-  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  color:white ;
+  font-weight:bolder;
 }
 
 .Ourservice img{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 300px;
+}
+
+.Ourservice img:hover{
+  width: 350px;
+  transition: 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+};
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 100px;
+  background-color: rgb(28, 28, 28);
+}
+
+footer p {
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
 }
 
 .Footer {
@@ -330,8 +353,8 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  background-color: rgb(28, 28, 28);
   justify-content: space-between;
+  
 }
 
 .Footer #footer{
@@ -341,4 +364,33 @@ img{
   color: white;
   border: 1px solid red;
   width: 20%;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.line{
+  background-color: red;
+  height: 1px;
+}
+
+.lastside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.carBrand {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:rgba(128, 128, 128, 0.377);
+  justify-content: space-between ;
+  align-items: center;
+  height: 100px;
+}
+
+.carBrand img {
+  width: 100px;
 }

@@ -5,8 +5,8 @@ import Button from "../component/Button"
 
 function Section1 (){
     const company = {
-        header1 : "We Are More Than",
-        header2: "A Car Rental Company",
+        header : "We Are More Than",
+        boldHeader: "A Car Tranding Company",
         text: "Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu euismod nisl massa nutodio in the miss volume place urna lacinia eros nunta urna mauris vehicula rutrum in the miss on volume interdum."
     }
 
@@ -19,8 +19,8 @@ function Section1 (){
         <div className="company-about container">
             <div className="section1">
                 <h1>FAST<em color="red">CARS</em></h1>
-                <h1>{company.header1}</h1>
-                <h2>{company.header2}</h2>
+                <h1>{company.header}</h1>
+                <h2>{company.boldHeader}</h2>
                 <p>{company.text}</p>
                 <div className="typesofcars">
                     <p><FontAwesomeIcon icon={faCircleCheck} color="red"/> {typesOfCars.num1}</p>
